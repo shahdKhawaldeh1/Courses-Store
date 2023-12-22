@@ -19,17 +19,12 @@ margin-top: 200px;
 
 }
 
-.container {
-margin-left: 100px;
-margin-top: 100px;
-width: calc(100% - 120px); /* Added space around the subtraction operator */
-
-}
 
 .row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  
 
 }
 
@@ -90,13 +85,13 @@ gap:20px;
 }
 .course-details .row:last-of-type{
   justify-content: flex-start;
-  gap:20px;
+  gap:10px;
   color:#969696;
 
 
 }
 .teacher, .videos{
-  font-size: 30px;
+  font-size: 10px;
   color: #474646;
 }
 .course-description {
