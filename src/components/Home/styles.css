@@ -65,7 +65,7 @@ gap:20px;
   right:0;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 15px;
   align-items: flex-start;
   color: #fff;
 
@@ -79,16 +79,19 @@ gap:20px;
    align-self: flex-end;
 }
 .course-details{
-  padding:20px;
+  padding:10px;
   display: flex;
   flex-direction: column;
 }
 .course-details .row:last-of-type{
   justify-content: flex-start;
-  gap:10px;
+  gap:5px;
   color:#969696;
 
 
+}
+.course-details h2{
+  font-size: 15px;
 }
 .teacher, .videos{
   font-size: 10px;
@@ -100,7 +103,7 @@ gap:20px;
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 100px;
-  width:200px; 
+  width:300px; 
 }
 
 .course-description p:nth-child(1) {
@@ -114,11 +117,11 @@ gap:20px;
 .course-description h2 {
   color: #000000; /* Adjust color for better readability */
   margin-bottom: 20px;
-  font-size: 10px;
+  font-size: 25px;
 }
 .course-description p:last-of-type{
   color: #969696;
-  font-size: 20px;
+  font-size: 16px;
 }
 .course-btn {
   background-color: #545BE8;
@@ -127,7 +130,7 @@ gap:20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .course-btn:hover {
