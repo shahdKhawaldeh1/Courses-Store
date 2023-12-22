@@ -85,7 +85,7 @@ gap:20px;
 }
 .course-details .row:last-of-type{
   justify-content: flex-start;
-  gap:5px;
+  gap:10px;
   color:#969696;
 
 
@@ -99,11 +99,12 @@ gap:20px;
 }
 .course-description {
   display: flex;
-  margin-left: 90px;
+  margin-left: 100px;
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 100px;
   width:300px; 
+  text-align: center;
 }
 
 .course-description p:nth-child(1) {
@@ -117,7 +118,7 @@ gap:20px;
 .course-description h2 {
   color: #000000; /* Adjust color for better readability */
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 30px;
 }
 .course-description p:last-of-type{
   color: #969696;
