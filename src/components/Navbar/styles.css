@@ -1,0 +1,123 @@
+ /* general */
+a{
+  text-decoration: none;
+  list-style: none;
+}
+ul{
+  list-style: none;
+}
+
+/* start header */
+ header{
+  position: fixed;
+  width:100%;
+  top:0;
+  z-index: 9;
+  box-shadow: 0px 1.647px 8.237px 0px rgba(0, 0, 0, 0.10);
+  padding: 20px 0;
+  
+
+ }
+ .nav-container {
+  margin: auto;
+  width: calc(100% - 120px); /* Added space around the subtraction operator */
+}
+ .nav-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+/* logo part */
+.logo{
+  display :flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-img{
+   width: 40PX;
+   margin-right: 10px;
+   margin-left: 30px;
+
+}
+.logo-name{
+  color:#545BE8;
+  font-size: 30px;
+}
+
+/* nav list part */
+.nav-list{
+  display: flex;
+  justify-content: space-around;
+  gap:20px;
+  font-size: 30px;
+
+}
+
+.nav-link {
+  display: inline-block;
+  padding: .3rem 1rem;
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 2;
+}
+ul li a {
+  position: relative;
+}
+
+ul li a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 2rem);
+  height: 3px;
+  background: linear-gradient(to right, #131ba8 0%, #eefb3c 100%);
+}
+ul li a::before {
+  transform: scale(0, 1);
+  transition: transform .3s ease;
+}
+
+ul li a:hover::before {
+  transform: scale(1, 1);
+}
+
+li a.active,
+li a:hover {
+background: linear-gradient(to right, #545BE8 0%, #431860 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+/* auth part */
+.auth{
+display: flex;
+flex-wrap: wrap;
+gap:10px;
+}
+.login{
+  color:#545BE8;
+  border: 2px solid #545BE8;
+  padding: 10px 40px;
+  border-radius: 10px;
+font-family: 'Inter',sans-serif;
+display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.register{
+  background-color: #545BE8;
+  color:antiquewhite;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-family: 'Inter',sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-right: 40px;
+
+}
