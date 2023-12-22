@@ -97,22 +97,22 @@ gap:10px;
 .login{
   color:#545BE8;
   border: 2px solid #545BE8;
-  padding: 20px 20px;
+  padding: 10px 40px;
   border-radius: 10px;
 font-family: 'Inter',sans-serif;
 display: flex;
   align-items: center;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .register{
   background-color: #545BE8;
   color:antiquewhite;
-  padding:20px 20px;
+  padding:10px 40px;
   border-radius: 10px;
   font-family: 'Inter',sans-serif;
   display: flex;
   align-items: center;
-  font-size: 10px;
+  font-size: 15px;
 
 }
