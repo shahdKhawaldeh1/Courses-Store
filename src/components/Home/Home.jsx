@@ -5,34 +5,33 @@ import course2 from "../../assets/images/course2.png";
 import course3 from "../../assets/images/course3.png";
 import course4 from "../../assets/images/course4.png";
  import about from "../../assets/images/about.png"
+ import sahr from "../../assets/images/sahr.png"
 
+ 
 export const Home = () => {
+  
   return (
     <>
-     <section className="about-container">
-      <div className="main">
-        <div className="social">
-          
-        </div>
-        <div className="detail">
-          <h1>
-          Let's Find The Right <span>Course</span> For you
-          </h1>
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.
-          </p>
-          <div className="btn">
-            <button>Download CV</button>
-          </div>
-        </div>
-        <div className="img-sec">
-          <div className="images">
-            <img className="img-w" alt="about" src={about} />
-
-          </div>
-        </div>
+  <section className="about-container">
+  <div className="main">
+    <div className="detail">
+      <h1 className="detail-title">
+        Let's Find The Right <span>Course</span> For You
+      </h1>
+      <p className="detail-paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.
+      </p>
+      <div className="detail-btns">
+        <button className="detail-btn">Download CV</button>
       </div>
-    </section>
+    </div>
+  
+    <div className="images">
+      <img className="detail-img" alt="about me" src={about} />
+    </div>
+  </div>
+</section>
+
 
     {/*  Courses section */}
       <section className="courses">
@@ -120,10 +119,21 @@ export const Home = () => {
               </div>
             </div>
             <div className="course-description">
-              <p>AVAILABLE FOR YOU</p>
-              <h2>Available Courses</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button className="course-btn">See all</button>
+              
+      <div class="card">
+      <p class="card-title">Available Courses</p>
+      <p class="small-desc">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+        veritatis nobis saepe itaque rerum nostrum aliquid obcaecati odio
+        officia deleniti. Expedita iste et illum, quaerat pariatur consequatur
+        eum nihil itaque!
+      </p>
+    <button className="course-btn">See all</button> 
+
+      <div class="go-corner">
+        <div class="go-arrow">→</div>
+      </div>
+    </div>
               </div>
           </div>
         </div>
