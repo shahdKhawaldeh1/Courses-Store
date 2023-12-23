@@ -4,6 +4,7 @@ import course1 from "../../assets/images/course1.png";
 import course2 from "../../assets/images/course2.png";
 import course3 from "../../assets/images/course3.png";
 import course4 from "../../assets/images/course4.png";
+ import about from "../../assets/images/about.png"
 
 export const Home = () => {
   return (
@@ -26,7 +27,8 @@ export const Home = () => {
         </div>
         <div className="img-sec">
           <div className="images">
-            {/* <img src="sahr.png" alt="" className="img-w" /> */}
+            <img className="img-w" alt="about" src={about} />
+
           </div>
         </div>
       </div>

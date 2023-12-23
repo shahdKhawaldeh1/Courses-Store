@@ -195,6 +195,11 @@ background: linear-gradient(to right,  #3f48e8 0%, #F0C932 100%);
     position: relative;
 }
 
+.img-w {
+  width: 100%;
+  height: 100%;
+
+}
 .main .btn {
     height: 70px;
     width: 200px;
