@@ -282,7 +282,7 @@ gap:20px;
   box-shadow: 0px 8.237px 8.237px 0px rgba(0, 0, 0, 0.10);
   background-color: #fff;
   padding: 20px;
-  width: calc(100% - 20px) / 3; /* Adjust the width as needed */
+  width:30%; /* Adjust the width as needed */
   position: relative;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
