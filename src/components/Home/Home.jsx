@@ -6,6 +6,7 @@ import course3 from "../../assets/images/course3.png";
 import course4 from "../../assets/images/course4.png";
 import about from "../../assets/images/about.png";
 import user1 from "../../assets/users/user1.png";
+import user2 from "../../assets/users/user2.png"
 
 export const Home = () => {
   return (
@@ -219,7 +220,7 @@ export const Home = () => {
 
             <div className="testimonial">
               <div className="user-info">
-                <img className="user-img" alt="user image" src={user1} />
+                <img className="user-img" alt="user image" src={user2} />
                 <div className="user-data">
                   <h3 className="user-name">Friskidia</h3>
                   <span> Client</span>

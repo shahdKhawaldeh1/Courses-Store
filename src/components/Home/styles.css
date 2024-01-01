@@ -168,7 +168,7 @@ gap:20px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width:600px;
+  width:350px;
   text-align: center;
   margin-left: 100px;
 
@@ -263,53 +263,95 @@ gap:20px;
   color: #ffffff;
 }
 /* testimonials section*/
-.testimonials{
-  padding: 40px 0;
-}
-.testimonials .row{
-gap:20px;
+.testimonials {
+  padding: 50px 0;
 }
 
-.testimonial{
+
+.testimonials .row {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial {
   display: flex;
   flex-direction: column;
-  gap:20px;
-  align-items: center;
+  gap: 20px;
+  align-items: flex-start;
   box-shadow: 0px 8.237px 8.237px 0px rgba(0, 0, 0, 0.10);
   background-color: #fff;
-  padding:20px;
-  width:calc(100% - 20px) / 2;
+  padding: 20px;
+  width: calc(100% - 20px) / 3; /* Adjust the width as needed */
+  position: relative;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-.user-info{
-  display:flex;
-  gap:15px;
+
+.testimonial:hover {
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 40px solid rgb(193, 193, 193);
+  border-left: 30px solid transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.user-info {
+  display: flex;
+  gap: 15px;
   flex-wrap: wrap;
+  padding-left: 30px;
 }
 
-.user-data{
-  display:flex;
+.user-data {
+  display: flex;
   flex-direction: column;
+}
 
+.user-name {
+  font-size: 14px;
 }
-.user-name{
-font-size: 14px;
-}
-.user-info span{
+
+.user-info span {
   color: #474646;
   font-size: 10px;
 }
-.user-img{
+
+.user-img {
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  display:flex;
+  width: 60px; /* Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.testimonial:hover .user-img {
+  transform: scale(1.2);
+}
+
+.rating {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  padding-left: 30px;
 
 }
-.rating{
-  display: flex;
-  gap:5px;
-  flex-wrap: wrap;
 
 
 
+blockquote {
+  text-align: left;
+  font-style: italic;
+
+}
+
+.testimonial:hover blockquote {
+  opacity: 1;
 }
