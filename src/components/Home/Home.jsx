@@ -140,7 +140,6 @@ export const Home = () => {
       {/* testimonials section */}
 
       <div className="testimonials">
-        <div className="container">
           <div className="row">
             <div className="testimonial">
               <div className="user-info">
@@ -294,7 +293,7 @@ export const Home = () => {
 
             </div>
           </div>
-        </div>
+      
       </div>
     </>
   );
